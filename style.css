@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin:  0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(
+        rgb(34, 187, 238)
+        rgba(34, 187, 238)
+       ) 0 100% no-repeat;
+       background-size: 100% 50%;
+}
+.container{
+    width: 400px;
+    padding: 50px;
+    border: 1px solid ;
+    position: absolute;
+    transform: translate(-50,-50%);
+    top: 50%;
+    left: 50%;
+    background-color: rgb(30, 187, 238);
+    box-shadow: 0  5px 35px rgba(30, 187, 238);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-googleapis: "Poppins",sans-serif;
+}
+.dice-wrapper{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+P{
+    font-size: 16PX;
+    margin: 30PX 0;
+}
+button{
+    background-color: rgb(30, 160, 238);
+    border: none;
+    outline: none;
+    color: rgb(30, 160, 238);
+    padding: 15px 0;
+    width: 150px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.shake{
+    animation: shake 0.5s infinite;
+}
+@keyframes shake{
+    0%{
+        transform: rotate(8deg);
+    }
+    50%{
+        transform: rotate(-8deg);
+    }
+    100%{
+        transform: rotate(8deg);
+    }
+}

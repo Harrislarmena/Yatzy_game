@@ -1,0 +1,31 @@
+let images = ["dice-01.png",
+"dice-02.png",
+"dice-03.png",
+"dice-04.png",
+"dice-5.png",
+"dice-06.png];
+let dice = document.queryselectorAll("img");
+
+function roll(){
+    dice.forEach(function(die)
+    die.classlist.add("shake");
+    });
+    setTimeout(function(){
+        dice.forEach(function(die){
+            die.classlist.remove("shake);
+        });
+        let dieoneValve = math.floor((math.random())
+        *6);
+        let dieTwoValve = math.floor(math.random()*6);
+        console.log(dieoneValve,dieTwoValve);
+     document.queryselector("#die-1").setAttribute("src",
+     images[dieoneValve]);
+     document.queryselector("#die-2).setAttribute("src",images[dieTwoValve]);
+     document.queryselector("#total").innerHTML = "you roll " + ( (dieoneValve +1) + 
+     dieTwoValve + 1) );
+
+    },
+    1000
+    );
+}
+roll();
