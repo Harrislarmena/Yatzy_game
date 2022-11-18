@@ -1,0 +1,32 @@
+<div class='description'>
+   <h1>Yahtzee Dice Roller</h1>
+   <p>Click the button to roll the dice. Click the lock icon to save the dice roll for the next turn.</p>
+</div>
+  
+<div class='dice-section'>
+   id='dice1' class='dice' src='https://cdn1.iconfinder.com/data/icons/inked/100/Dice-512.png'>
+   id='dice2' class='dice' src='https://cdn1.iconfinder.com/data/icons/inked/100/Dice-512.png'>
+   id='dice3' class='dice' src='https://cdn1.iconfinder.com/data/icons/inked/100/Dice-512.png'>
+   id='dice4' class='dice' src='https://cdn1.iconfinder.com/data/icons/inked/100/Dice-512.png'>
+   id='dice5' class='dice' src='https://cdn1.iconfinder.com/data/icons/inked/100/Dice-512.png'>
+</div>
+
+<div class='lock-section'>
+   id='lock1' class='lock' src='https://icons.iconarchive.com/icons/icons8/windows-8/512/Very-Basic-Unlock-icon.png'>
+   id='lock2' class='lock' src='https://icons.iconarchive.com/icons/icons8/windows-8/512/Very-Basic-Unlock-icon.png'>
+   id='lock3' class='lock' src='https://icons.iconarchive.com/icons/icons8/windows-8/512/Very-Basic-Unlock-icon.png'>
+   id='lock4' class='lock' src='https://icons.iconarchive.com/icons/icons8/windows-8/512/Very-Basic-Unlock-icon.png'>
+   id='lock5' class='lock' src='https://icons.iconarchive.com/icons/icons8/windows-8/512/Very-Basic-Unlock-icon.png'>
+</div>
+
+<div id='counter'>
+  <p>Roll Number: <span id='roll-counter'></span></p>
+</div>
+
+<div id='roll-button' class='button'>
+  Roll the Dice
+</div>
+
+<div id='reset-button' class='button'>
+ Reset 
+</div>

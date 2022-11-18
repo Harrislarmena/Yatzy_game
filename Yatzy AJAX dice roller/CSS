@@ -1,0 +1,43 @@
+body {
+  text-align: center;
+  background-color: #3ac0f9;
+}
+
+.description {
+  width: 800px;
+  margin: auto auto 45px;
+}
+
+h1 {
+  font-family: Georgia;
+  font-size: 45px;
+}
+
+p {
+  font-family: Helvetica;
+  font-size: 25px;
+}
+
+.dice {
+  height: 95px;
+  margin: 8px 8px 0px;
+}
+
+.lock {
+  height: 18px;
+  margin: auto 45px 25px;
+}
+
+.button {
+  background-color: #19bfed;
+  color: rgb(50, 193, 250);
+  width: 120px;
+  height: 30px;
+  cursor: pointer;
+  margin: 20px 15px;
+  padding: .5em .5em;
+  font-family: Helvetica;
+  border-radius: 8px;
+  line-height: 25px;
+  display: inline-lightblue;
+}
